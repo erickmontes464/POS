@@ -1,0 +1,110 @@
+a {
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #ebeff2 !important;
+}
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+header nav button{
+    background-color: #60BDAA;
+    padding: 5px 10px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-admin{
+    background-color: #dddddd;
+    color: gray;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+.container-fluid section{
+    background-color: #ffffff;
+    margin: 10px;  
+    padding: 20px;
+    height: 85vh;
+    border-radius: 20px;
+}
+.box-compra{
+    width: 40%;  
+}
+.box-products{
+    width: 65%;
+    overflow: auto;
+}
+.box-products::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+.box-products::-webkit-scrollbar {
+    width: 8px;
+}
+.box-compra input{
+    width: 90%;
+}
+.tabla{
+    height: 63vh;
+    overflow: auto;
+
+}
+table tr td a{
+    cursor: pointer;
+}
+.container-product{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}   
+.product{
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px;
+}
+.product img{
+    width: 125px;
+    height: 120px;
+}
+.product p{
+    margin-bottom: 4px !important;
+}
+.modal-ventas{
+    overflow: auto;
+    height: 70vh;
+}
+body.dark-mode {
+    filter: invert(1);
+  }
+  
+  .dark-mode img {
+    filter: invert(1);
+  }
+@media (max-width: 1366px){
+.tabla{
+    height: 56vh;
+}
+.under-box{
+    margin-top: 10px;
+}
+.product img{
+    height: 96px;
+}
+.text-success{
+    margin: 0;
+}
+.box-products{
+    padding: 15px !important;
+}
+}
