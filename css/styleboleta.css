@@ -1,7 +1,8 @@
-* :not(h1){
+* {
     font-size: 12px;
     font-family: 'Times New Roman';
 }
+
 td,
 th,
 tr,
@@ -33,9 +34,15 @@ th.precio {
 .centrado {
     text-align: center;
     align-content: center;
+ 
 }
 
 .ticket {
     width: 155px;
     max-width: 155px;
+}
+img {
+    filter: grayscale(100%) !important;
+    display: grid;
+    margin: auto;
 }

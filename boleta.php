@@ -12,7 +12,7 @@
         ?>
         
         <div class="ticket">
-            <h1 class="centrado">Guilmon</h1>
+            <img src="icon/logo.jpg" height="30px" >  
             <p class="centrado">Nro de boleta:&nbsp;&nbsp;<?=$codigo?>
                 <br><?=$productos[0][1]?></p>
             <table>
