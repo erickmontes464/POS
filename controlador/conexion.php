@@ -1,7 +1,11 @@
 <?php
      class Conectar{
         private $conn;
-        
+          
+        function __construct() {
+            $this->conectar();
+        }
+          
         function conectar() {
             if($this->conn==null){
                 $this->conn= mysqli_connect ("localhost","root", "","bdpventa");
