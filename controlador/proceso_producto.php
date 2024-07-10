@@ -16,7 +16,10 @@
        } else if ($tipo === 'image/png') {
            $imagen = imagecreatefrompng($ruta);
        }
-   
+      //Convertir la imagen a RGB
+       $imagen = imagecreatefrompng($ruta);
+       imagepalettetotruecolor($imagen);
+      
        // crear una imagen en formato WebP
        $producto="images/".$foto.".webp";
        $productosql="../images/".$foto.".webp";
