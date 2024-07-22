@@ -39,21 +39,6 @@ Panel de administración para el manejo de usuarios, productos e inventario.
 Búsqueda y filtrado de productos.
 Contribuciones
 Las contribuciones a este proyecto son bienvenidas. Para realizar una contribución, siga los siguientes pasos:
-
-Cree un fork de este repositorio en su cuenta de GitHub.
-Clone su fork en su máquina local.
-Cree una nueva rama para su contribución:
-css
-Copy code
-git checkout -b mi-nueva-caracteristica
-Realice sus cambios y realice commits en su rama.
-Haga push de su rama a su fork en GitHub:
-perl
-Copy code
-git push origin mi-nueva-caracteristica
-Cree un Pull Request en este repositorio con su contribución.
-Licencia
-Este proyecto está bajo la licencia MIT. Consulte el archivo LICENSE para obtener más información.
-
+![index](https://github.com/user-attachments/assets/69914518-6e6e-4b5e-8ee1-3563aceecd5a)
 
 
